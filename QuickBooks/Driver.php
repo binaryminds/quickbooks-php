@@ -1365,7 +1365,7 @@ abstract class QuickBooks_Driver
 		$hookdata = array();
 		$err = '';
 		$this->_callHook(QUICKBOOKS_DRIVER_HOOK_INITIALIZED, null, $err, $hookdata);
-		
+
 		return $this->_initialized();
 	}
 	

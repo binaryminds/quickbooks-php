@@ -34,7 +34,7 @@ class QuickBooks_WebConnector_Queue_Singleton
 	 * @param string $dsn
 	 * @param string $user
 	 * @param string $config
-	 * @return QuickBooks_Queue
+	 * @return \QuickBooks_WebConnector_Queue
 	 */
 	static public function initialize($dsn = null, $user = null, $config = array(), $return_boolean = true)
 	{
@@ -68,7 +68,7 @@ class QuickBooks_WebConnector_Queue_Singleton
 	/**
 	 * Get the instance of the queueing class
 	 * 
-	 * @return QuickBooks_Queue
+	 * @return \QuickBooks_Queue
 	 */
 	static public function getInstance()
 	{

@@ -626,7 +626,6 @@ class QuickBooks_Utilities
 	static public function initialized($dsn, $driver_options = array())
 	{
 		$Driver = QuickBooks_Utilities::driverFactory($dsn, $driver_options);
-		
 		return $Driver->initialized();
 	}
 	

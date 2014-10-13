@@ -578,7 +578,7 @@ abstract class QuickBooks_QBXML_Object
 	{
 		$todo_for_empty_elements = QuickBooks_XML::XML_DROP;
 		$indent = "\t";
-		
+
 		// Call any cleanup routines
 		$this->_cleanup();
 		
